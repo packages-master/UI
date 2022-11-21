@@ -47,7 +47,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.packagesmaster'
             artifactId = 'ui'
-            version = '1.0.3'
+            version = '1.0.4'
 
             afterEvaluate {
                 from components.release
